@@ -1,0 +1,160 @@
+[log] 2025-07-23T21:01:37.866Z [Player API] //s3.glbimg.com/v1/AUTH_e1b09a2d222b4900a437a46914be81e5/web/settings/stable/settings.min.js embedded!
+[log] 2025-07-23T21:01:37.948Z MAB - Choose requested by application
+[log] 2025-07-23T21:01:37.948Z MAB - Choose requested by application
+[log] 2025-07-23T21:01:37.949Z MAB - Choose requested by application
+[log] 2025-07-23T21:01:37.949Z MAB - Choose requested by application
+[log] 2025-07-23T21:01:37.949Z MAB - Choose requested by application
+[log] 2025-07-23T21:01:37.949Z MAB - Choose requested by application
+[log] 2025-07-23T21:01:37.949Z MAB - Choose requested by application
+[log] 2025-07-23T21:01:37.949Z MAB - Choose requested by application
+[warning] 2025-07-23T21:01:38.368Z Nenhuma imagem encontrada com a classe 'error-fallback--img'.
+[log] 2025-07-23T21:01:38.368Z === Common Tracker 2 ===
+[warning] 2025-07-23T21:01:38.543Z [Player API] error retrieving experiments: 
+[log] 2025-07-23T21:01:38.544Z [Player API] no experiments configured
+[log] 2025-07-23T21:01:38.544Z [Player API] version: stable
+[log] 2025-07-23T21:01:38.544Z [Player API] bundle: player
+[log] 2025-07-23T21:01:38.544Z [Player API] embedding: //s3.glbimg.com/v1/AUTH_e1b09a2d222b4900a437a46914be81e5/web/player/stable/player.min.js
+[log] 2025-07-23T21:01:38.649Z MAB - Choose requested by application
+[debug] 2025-07-23T21:01:38.747Z Adding the clientID:barra@apps.globoid setup to the queue
+[debug] 2025-07-23T21:01:38.748Z Running setup from clientId: barra@apps.globoid
+[log] 2025-07-23T21:01:38.751Z MAB - Choose requested by application
+[log] 2025-07-23T21:01:39.177Z [Player API] //s3.glbimg.com/v1/AUTH_e1b09a2d222b4900a437a46914be81e5/web/player/stable/player.min.js embedded!
+[log] 2025-07-23T21:01:39.297Z MAB - Choose requested by application
+[warning] 2025-07-23T21:01:39.310Z Google Deploy of the SharedId library has been deprecated. Please select another option in the GAM UI. If you use Prebid, we suggest the Prebid.js UserId option. If you do not, you may configure GAM to allow Google to share a first party user identifier with OB and AB participants, which is either the publisherProvidedId or the __gads value when that is missing.
+[debug] 2025-07-23T21:01:39.425Z Remote settings fetched 
+[debug] 2025-07-23T21:01:39.425Z Setting up TokenSessionManager
+[debug] 2025-07-23T21:01:39.425Z TokenSessionManager Checking if the user is logged
+[debug] 2025-07-23T21:01:39.426Z TokenSessionManager no keyCloakInstance running
+[debug] 2025-07-23T21:01:39.426Z Trying to auth using the stored tokens
+[debug] 2025-07-23T21:01:39.426Z Globoidjs - Setting up silent auth configs
+[debug] 2025-07-23T21:01:39.427Z TokenSessionManager initializing
+[debug] 2025-07-23T21:01:39.427Z Trying to init keycloak instance with these settings:
+        {"url":"https://goidc.globo.com/auth","realm":"globo.com","grantType":"code","promiseType":"native","checkLoginIframe":false,"redirectUri":"https://www.globo.com/login-callback.ghtml","sessionManagement":"token","authorizationUrl":"","authorizationAeidUrl":"","enable-pkce":true,"pkceMethod":"S256","logoutUrl":"https://authx.globoid.globo.com","legacyCompatible":false,"sdkVersion":"1.17.13","provisioningBaseUrl":"https://login.globo.com/provisionamento","enableRefreshTokenMode":true,"onLoad":"check-sso","scope":"openid profile","clientId":"barra@apps.globoid","resource":"barra@apps.globoid","tokenStorageType":"local","silentCheckSsoRedirectUri":"https://www.globo.com/login-callback.ghtml"}
+[warning] 2025-07-23T21:01:40.166Z |libAnalytics| -> |Data|: Property user_code is empty.
+[warning] 2025-07-23T21:01:40.166Z |libAnalytics| -> |Data|: Property user_code_provider is empty.
+[info] 2025-07-23T21:01:40.477Z Powered by AMP ⚡ HTML – Version 2507082004000 https://www.globo.com/
+[debug] 2025-07-23T21:01:40.937Z Initalizing callback procedures
+[debug] 2025-07-23T21:01:40.937Z Trying to get the state
+[debug] 2025-07-23T21:01:40.937Z State ID is: b230ace4-3fa7-482f-8687-a54a28ca2b03
+[debug] 2025-07-23T21:01:40.937Z State content not found
+[debug] 2025-07-23T21:01:40.937Z State:  
+[log] 2025-07-23T21:01:40.937Z No state was identified. Trying silent mode
+[debug] 2025-07-23T21:01:40.937Z Finishing callback procedures
+[debug] 2025-07-23T21:01:40.937Z Finishing casllback call
+[debug] 2025-07-23T21:01:40.967Z TokenSessionManager Checking if the user is logged
+[debug] 2025-07-23T21:01:40.967Z TokenSessionManager keyCloakInstance found
+[debug] 2025-07-23T21:01:40.968Z Trying to auth using the stored tokens
+[debug] 2025-07-23T21:01:40.968Z TokenSessionManager Not logged
+[debug] 2025-07-23T21:01:40.968Z Cleaning up url
+[debug] 2025-07-23T21:01:40.968Z TokenSessionManager Checking if the user is logged
+[debug] 2025-07-23T21:01:40.968Z TokenSessionManager keyCloakInstance found
+[debug] 2025-07-23T21:01:40.968Z Trying to auth using the stored tokens
+[info] 2025-07-23T21:01:42.379Z SW registered:  
+[log] 2025-07-23T21:02:07.736Z Testing
+[log] 2025-07-23T22:01:51.840Z This is a log message.
+[error] 2025-07-23T22:01:51.843Z This is an error message.
+[log] 2025-07-23T22:01:51.843Z Random number: 0.16132069739396537
+[log] 2025-07-23T22:01:51.844Z User: 
+[error] 2025-07-23T22:01:51.844Z Something went wrong at 7:01:51 PM
+[log] 2025-07-23T22:01:51.844Z Loop log #0
+[log] 2025-07-23T22:01:51.844Z Loop log #1
+[log] 2025-07-23T22:01:51.844Z Loop log #2
+[log] 2025-07-23T22:01:52.704Z This is a log message.
+[error] 2025-07-23T22:01:52.704Z This is an error message.
+[log] 2025-07-23T22:01:52.704Z Random number: 0.9958077208956033
+[log] 2025-07-23T22:01:52.704Z User: 
+[error] 2025-07-23T22:01:52.704Z Something went wrong at 7:01:52 PM
+[log] 2025-07-23T22:01:52.704Z Loop log #0
+[log] 2025-07-23T22:01:52.704Z Loop log #1
+[log] 2025-07-23T22:01:52.704Z Loop log #2
+[log] 2025-07-23T22:01:59.026Z This is a log message.
+[error] 2025-07-23T22:01:59.027Z This is an error message.
+[log] 2025-07-23T22:01:59.027Z Random number: 0.369695284271243
+[log] 2025-07-23T22:01:59.027Z User: 
+[error] 2025-07-23T22:01:59.027Z Something went wrong at 7:01:59 PM
+[log] 2025-07-23T22:01:59.027Z Loop log #0
+[log] 2025-07-23T22:01:59.027Z Loop log #1
+[log] 2025-07-23T22:01:59.027Z Loop log #2
+[log] 2025-07-23T22:02:00.140Z This is a log message.
+[error] 2025-07-23T22:02:00.140Z This is an error message.
+[log] 2025-07-23T22:02:00.140Z Random number: 0.4329878139203306
+[log] 2025-07-23T22:02:00.140Z User: 
+[error] 2025-07-23T22:02:00.140Z Something went wrong at 7:02:00 PM
+[log] 2025-07-23T22:02:00.140Z Loop log #0
+[log] 2025-07-23T22:02:00.141Z Loop log #1
+[log] 2025-07-23T22:02:00.141Z Loop log #2
+[log] 2025-07-23T22:02:00.936Z This is a log message.
+[error] 2025-07-23T22:02:00.937Z This is an error message.
+[log] 2025-07-23T22:02:00.937Z Random number: 0.002596714068570316
+[log] 2025-07-23T22:02:00.937Z User: 
+[error] 2025-07-23T22:02:00.937Z Something went wrong at 7:02:00 PM
+[log] 2025-07-23T22:02:00.937Z Loop log #0
+[log] 2025-07-23T22:02:00.937Z Loop log #1
+[log] 2025-07-23T22:02:00.937Z Loop log #2
+[log] 2025-07-23T22:02:01.912Z This is a log message.
+[error] 2025-07-23T22:02:01.913Z This is an error message.
+[log] 2025-07-23T22:02:01.913Z Random number: 0.9394402069785505
+[log] 2025-07-23T22:02:01.913Z User: 
+[error] 2025-07-23T22:02:01.913Z Something went wrong at 7:02:01 PM
+[log] 2025-07-23T22:02:01.913Z Loop log #0
+[log] 2025-07-23T22:02:01.913Z Loop log #1
+[log] 2025-07-23T22:02:01.913Z Loop log #2
+[log] 2025-07-23T22:02:02.780Z This is a log message.
+[error] 2025-07-23T22:02:02.780Z This is an error message.
+[log] 2025-07-23T22:02:02.780Z Random number: 0.45409353762738425
+[log] 2025-07-23T22:02:02.780Z User: 
+[error] 2025-07-23T22:02:02.780Z Something went wrong at 7:02:02 PM
+[log] 2025-07-23T22:02:02.780Z Loop log #0
+[log] 2025-07-23T22:02:02.780Z Loop log #1
+[log] 2025-07-23T22:02:02.780Z Loop log #2
+[log] 2025-07-23T22:02:03.664Z This is a log message.
+[error] 2025-07-23T22:02:03.664Z This is an error message.
+[log] 2025-07-23T22:02:03.664Z Random number: 0.22264362802480908
+[log] 2025-07-23T22:02:03.664Z User: 
+[error] 2025-07-23T22:02:03.664Z Something went wrong at 7:02:03 PM
+[log] 2025-07-23T22:02:03.664Z Loop log #0
+[log] 2025-07-23T22:02:03.664Z Loop log #1
+[log] 2025-07-23T22:02:03.665Z Loop log #2
+[error] 2025-07-24T13:44:39.536Z Button error:  
+[log] 2025-07-24T13:44:40.284Z Button log: 
+[warning] 2025-07-24T13:44:40.829Z Button warning: This is a warning! 
+[info] 2025-07-24T13:44:41.719Z Button info: Some info for you. 
+[error] 2025-07-24T13:44:42.336Z Button error:  
+[error] 2025-07-24T13:44:42.514Z Button error:  
+[error] 2025-07-24T13:44:42.706Z Button error:  
+[error] 2025-07-24T13:44:42.920Z Button error:  
+[error] 2025-07-24T13:44:43.086Z Button error:  
+[error] 2025-07-24T13:44:43.274Z Button error:  
+[error] 2025-07-24T13:44:43.448Z Button error:  
+[error] 2025-07-24T13:44:43.642Z Button error:  
+[error] 2025-07-24T13:44:43.813Z Button error:  
+[startGroup] 2025-07-24T13:44:44.703Z Grouped Logs
+[log] 2025-07-24T13:44:44.703Z Inside group 1
+[log] 2025-07-24T13:44:44.703Z Inside group 2
+[endGroup] 2025-07-24T13:44:44.703Z console.groupEnd
+[assert] 2025-07-24T13:44:45.219Z Assertion failed! Button pressed. 
+[table] 2025-07-24T13:44:45.859Z 
+[count] 2025-07-24T13:44:46.648Z ButtonCount: 1
+[timeEnd] 2025-07-24T13:44:47.850Z Timer: 501.85302734375 ms
+[assert] 2025-07-24T13:44:48.507Z Assertion failed! Button pressed. 
+[count] 2025-07-24T13:44:48.968Z ButtonCount: 2
+[startGroup] 2025-07-24T13:44:49.832Z Grouped Logs
+[log] 2025-07-24T13:44:49.832Z Inside group 1
+[log] 2025-07-24T13:44:49.832Z Inside group 2
+[endGroup] 2025-07-24T13:44:49.832Z console.groupEnd
+[table] 2025-07-24T13:44:50.611Z 
+[info] 2025-07-24T13:44:51.250Z Button info: Some info for you. 
+[warning] 2025-07-24T13:44:51.750Z Button warning: This is a warning! 
+[error] 2025-07-24T13:44:52.444Z Button error:  
+[error] 2025-07-24T13:44:52.635Z Button error:  
+[error] 2025-07-24T13:44:52.816Z Button error:  
+[error] 2025-07-24T13:44:52.986Z Button error:  
+[log] 2025-07-24T13:44:53.672Z Button log: 
+[log] 2025-07-24T13:44:53.891Z Button log: 
+[log] 2025-07-24T13:44:54.058Z Button log: 
+[log] 2025-07-24T13:44:54.260Z Button log: 
+[warning] 2025-07-24T13:44:55.173Z Button warning: This is a warning! 
+[warning] 2025-07-24T13:44:55.399Z Button warning: This is a warning! 
+[table] 2025-07-24T13:44:56.110Z 
+[table] 2025-07-24T13:44:56.552Z 
+[timeEnd] 2025-07-24T13:44:58.150Z Timer: 500.6591796875 ms

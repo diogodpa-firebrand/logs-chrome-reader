@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Console Log Test</title>
+    </head>
+    <body>
+        <h1>Console Log Test Page</h1>
+        <div id="log-buttons">
+            <button onclick="console.log('Button log:', {clicked: true, time: new Date().toISOString()})">Log</button>
+            <button onclick="console.error('Button error:', new Error('Test error'), {time: new Date().toISOString()})">Error</button>
+            <button onclick="console.warn('Button warning:', 'This is a warning!', {time: new Date().toISOString()})">Warn</button>
+            <button onclick="console.info('Button info:', 'Some info for you.', {time: new Date().toISOString()})">Info</button>
+            <button onclick="console.table([{name: 'Alice', age: 30}, {name: 'Bob', age: 25}])">Table</button>
+            <button onclick="console.group('Grouped Logs'); console.log('Inside group 1'); console.log('Inside group 2'); console.groupEnd()">Group</button>
+            <button onclick="console.assert(false, 'Assertion failed! Button pressed.', {time: new Date().toISOString()})">Assert (fail)</button>
+            <button onclick="console.count('ButtonCount')">Count</button>
+            <button onclick="console.time('Timer'); setTimeout(()=>console.timeEnd('Timer'), 500)">Time (0.5s)</button>
+        </div>
+        <script>
+            console.log("This is a log message.")
+            console.error("This is an error message.")
+            console.log("Random number:", Math.random())
+            console.log("User:", { name: "Alice", age: 30 })
+            console.error("Something went wrong at", new Date().toLocaleTimeString())
+            for (let i = 0; i < 3; i++) {
+                console.log(`Loop log #${i}`)
+            }
+        </script>
+    </body>
+</html>

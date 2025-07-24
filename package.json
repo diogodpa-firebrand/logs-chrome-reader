@@ -1,0 +1,19 @@
+{
+    "name": "weekly-ai-meeting",
+    "version": "1.0.0",
+    "description": "/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --remote-debugging-port=9222",
+    "main": "get-logs.js",
+    "scripts": {
+        "start": "node get-logs.js",
+        "lint": "prettier --write ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "chrome-remote-interface": "^0.33.3"
+    },
+    "devDependencies": {
+        "prettier": "^3.6.2"
+    }
+}
