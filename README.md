@@ -58,3 +58,38 @@ npm start
 **Tip:**
 - You can repeat steps 3 and 4 as many times as you like to generate different log scenarios and test the AI's analysis capabilities.
 
+---
+
+## Alternative: get-logs-loop-and-object.js
+
+This script (`get-logs-loop-and-object.js`) is an alternative to `get-logs.js` for capturing and serializing console logs from Chrome. It is designed to:
+
+- Continuously attempt to connect to a Chrome tab with a URL containing `localhost:4000` (by default).
+- Automatically reconnect if the target tab is closed and reopened.
+- Capture all console logs, including complex objects, by recursively serializing their properties.
+- Write logs to `console-logs.txt` in the format `[type] timestamp message`.
+
+### How to Use
+
+1. **Start Chrome with Remote Debugging** (as described above).
+2. **Run the script:**
+
+   ```sh
+   node get-logs-loop-and-object.js
+   ```
+
+   - The script will attempt to connect to a Chrome tab with a URL containing `localhost:4000` every 5 seconds.
+   - Once connected, it will capture all console logs, including deeply nested objects, and append them to `console-logs.txt`.
+   - If the connection is lost (e.g., the tab is closed), the script will keep trying to reconnect.
+
+### Features
+- **Recursive Object Serialization:** Console log arguments that are objects are recursively traversed and serialized to JSON, so you get the full structure in your logs.
+- **Automatic Reconnection:** The script will keep polling for the target tab and reconnect automatically if needed.
+- **Status Messages:** Prints connection and disconnection status to the terminal for easier monitoring.
+
+### When to Use This Script
+- Use `get-logs-loop-and-object.js` if you need to capture complex objects from the console, or want a more robust solution that handles tab restarts and reconnections automatically.
+- For simple log capture, `get-logs.js` may be sufficient.
+
+---
+
